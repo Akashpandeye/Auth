@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "13Auth-session",
   "version": "1.0.0",
   "description": "",
@@ -6,7 +7,6 @@
   "scripts": {
     "start": "node index",
     "dev": "node --watch index",
-    "type": "module",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio"
   },
